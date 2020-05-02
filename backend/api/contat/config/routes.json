@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contat",
+      "handler": "contat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contat",
+      "handler": "contat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contat",
+      "handler": "contat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

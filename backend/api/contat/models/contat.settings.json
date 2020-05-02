@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "contats",
+  "info": {
+    "name": "Contat"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    }
+  }
+}
